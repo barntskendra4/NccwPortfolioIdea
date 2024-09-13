@@ -1,0 +1,241 @@
+body {
+  background: linear-gradient(gray, aqua, whitesmoke);
+  /* height: 100vh; */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: cursive;
+  color: whitesmoke;
+  font-size: 3rem;
+}
+
+/* .info {
+    width:50px;
+    height:50px;
+} */
+
+.register {
+  display: flex;
+  /* surprised just left works */
+  justify-content: left;
+}
+
+.homeButton {
+  color: #444444;
+  text-shadow: 0px 1px 1px;
+  border-bottom: 2px solid #010202;
+  background-color: #1f8f8d;
+}
+
+.homeButton:hover {
+  color: #5f1010;
+  border: 1px solid #a4a4a4;
+  border-bottom: 2px solid #b2b2b2;
+  background-color: #a0dbc4;
+  background: -moz-linear-gradient(top, (#a8cfce), (#beeae9));
+  background: -o-linear-gradient(top, (#a8cfce), (#beeae9));
+}
+
+.contactUsButton {
+  color: #444444;
+  text-shadow: 0px 1px 1px;
+  border-bottom: 2px solid #010202;
+  background-color: #1f8f8d;
+}
+
+.contactUsButton:hover {
+  color: #5f1010;
+  border: 1px solid #a4a4a4;
+  border-bottom: 2px solid #b2b2b2;
+  background-color: #a0dbc4;
+  background: -moz-linear-gradient(top, (#a8cfce), (#beeae9));
+  background: -o-linear-gradient(top, (#a8cfce), (#beeae9));
+}
+
+/* You do good about keeping the important declaration first */
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  /* height and width needs to be % or vh/vw */
+  width: 60vw;
+  height: 30vh;
+  margin: 20px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  height: 30vh;
+  margin: 20px;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width:75vw;
+  height:20vh;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.boxOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40vw;
+}
+
+.header {
+  font-size: 3rem;
+}
+
+.creed {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2rem;
+}
+
+.classmates {
+  border: solid 2px black;
+}
+
+.roster {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.one,
+.two
+.three,
+.four,
+.five,
+.six, 
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.thirteen,
+.fourteen {
+  color: black;
+}
+
+.one:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.two:hover {
+  color: rgb(238, 88, 1);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.three:hover {
+  color: rgb(251, 255, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+/* since all of them have the same text decoration and font size you could have reused that part for all
+and only needed to adjust the color each time instead of all three declarations */
+.four:hover {
+  color: rgb(60, 255, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.five:hover {
+  color: rgb(0, 31, 172);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.six:hover {
+  color: rgb(60, 0, 172);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.seven:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.eight:hover {
+  color: rgb(255, 94, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.nine:hover {
+  color: rgb(255, 251, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.ten:hover {
+  color: rgb(56, 238, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.eleven:hover {
+  color: rgb(0, 31, 170);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.twelve:hover {
+  color: rgb(122, 0, 204);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.thirteen:hover {
+  color: rgb(233, 0, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.fourteen:hover {
+  color: rgb(245, 98, 0);
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
